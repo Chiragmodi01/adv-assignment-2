@@ -6,13 +6,13 @@
 - React
 
 ## Viewpoint
-1 Project is created locally using `npx create-react-app`.
-2. Initialized github repository.
-3. Three main components of the app are Navbar, UserCard and Loading.
-4. HTML5 semantic tags wese used for markup.
-5. Two main React hooks used are useState and useEffect.
-6. App's UI is designed completely using pure CSS3.
-7. App consumes https://reqres.in/api/users API.
+1 Project is created locally using `npx create-react-app`
+2. Initialized github repository
+3. Three main components of the app are Navbar, UserCard and Loading
+4. HTML5 semantic tags wese used for markup
+5. Two main React hooks used are useState and useEffect
+6. App's UI is designed completely using pure CSS3
+7. App consumes https://reqres.in/api/users API
 
 ## Action
 * User have to click on the `Get Users` button to fetch the data from the API.
