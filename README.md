@@ -6,7 +6,7 @@
 - React
 
 ## Viewpoint
-1 Project is created locally using `npx create-react-app`.
+1. Project is created locally using `npx create-react-app`.
 2. Initialized github repository.
 3. Three main components of the app are Navbar, UserCard and Loading.
 4. HTML5 semantic tags wese used for markup.
