@@ -14,6 +14,7 @@ function App() {
   
   const url = ` https://reqres.in/api/users?page=${page}`;
 
+  // fetching data from api
   useEffect(() => {
     const fetchUsers = async () => {
       setIsLoading(true)
@@ -23,10 +24,12 @@ function App() {
       setData(data.data);
       setIsLoading(false)
   };
-  
+  // calling the fetch function
     isClicked && fetchUsers();
   }, [isClicked, url]);
 
+  
+  // pagination
   const pagePrevious = () => {
     setPage(1);
     setNextBtn(false);
